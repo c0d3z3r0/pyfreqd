@@ -1,0 +1,8 @@
+[Unit]
+Description=pyfreqd daemon
+
+[Service]
+ExecStart=/usr/local/sbin/pyfreqd
+
+[Install]
+WantedBy=multi-user.target
